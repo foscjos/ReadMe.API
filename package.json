@@ -1,0 +1,27 @@
+{
+  "name": "ReadMe.API",
+  "version": "1.0.0",
+  "description": "Node API for ReadMe app. Please refer to our [project](https://github.com/foscjos/ReadMe.UI/projects/1) for a current list of in-progress tasks.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foscjos/ReadMe.API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foscjos/ReadMe.API/issues"
+  },
+  "homepage": "https://github.com/foscjos/ReadMe.API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
