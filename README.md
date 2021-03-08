@@ -5,7 +5,9 @@ To run this server, run the commands 'npm install' and then 'npm start'. The ser
 
 If you want to contribute to this project, please create a fork of the repo, and commit to our main branch. Pull requests will be reviewed on a regular basis.
 
-Things you will need to do to run locally: 
+
+# Things you will need to do to run locally: 
+
 Run a general npm install
 
 Run npm install mongodb --save (may not need this step if I set up packages correctly)
