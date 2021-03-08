@@ -6,7 +6,8 @@ const PORT = 3001;
 /**
  * Routes.
  */
-const healthRouter = require('./routes/health');
+const healthRouter = require('./services/health-service');
+const bookRouter = require('./services/book-service');
 
 // parses incoming requests with JSON payloads
 app.use(express.json());// parses incoming requests with urlencoded payloads
@@ -14,6 +15,7 @@ app.use(express.json());// parses incoming requests with urlencoded payloads
 app.use(express.urlencoded({extended: true}));
 
 app.use('/api/v1', healthRouter);
+app.use('/api/v1', bookRouter);
 
 function onStart(){
     console.log(`Server running on port ${PORT}`);
