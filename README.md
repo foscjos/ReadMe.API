@@ -14,8 +14,12 @@ Run npm install mongodb --save (may not need this step if I set up packages corr
 
 npm install mongoose --save (again, may not need if I set things up correctly)
 
+docker run --name mongodb -d -p 27017:27017 -v C:\Github\data\mongodb mongo (YOU MAY NEED TO CHANGE THE PATH LISTED - I JUST DUMPED THIS WHERE I WANTED IT ON MY BOX)
+
 See if you can hit the healthcheck endpoint
 
-Pull  in my environment variable since that cannot be checked into git (text me)
+Pull  in my environment variable since that cannot be checked into git (text or email me for this)
 
 For now we will use postman to test api routes, but once we build out the UI we will need to do this less
+
+Docker container was set up using this guide: https://www.mongodb.com/compatibility/docker
