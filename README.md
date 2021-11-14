@@ -20,6 +20,6 @@ See if you can hit the healthcheck endpoint
 
 Pull  in my environment variable since that cannot be checked into git (text or email me for this)
 
-For now we will use postman to test api routes, but once we build out the UI we will need to do this less
+For now we will use postman to test api routes, but once we build out the UI we will need to do this less. I've got some postman requests hanging around locally, so reach out for a starting point on this. 
 
 Docker container was set up using this guide: https://www.mongodb.com/compatibility/docker
